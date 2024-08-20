@@ -1,0 +1,17 @@
+{
+  "name": "1.httpmodule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "6": "^0.0.1",
+    "minimist": "^1.2.8",
+    "tiny-timer": "^1.6.0"
+  }
+}
