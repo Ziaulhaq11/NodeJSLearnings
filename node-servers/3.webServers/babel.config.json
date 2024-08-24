@@ -1,0 +1,4 @@
+{
+    "presets" : ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-syntax-import-assertions"] //We imported JSON into the file this will fix the error in tests
+}
