@@ -1,9 +1,8 @@
 var fs = require('fs');
-var http =  require('http');
-var file = './powder-day.mp4';
+var http = require('http');
+var file = './powder-day.mp4'; // This is the Source file, destination is to send it to http.
 
 http.createServer((req, res) => {
-
     fs.readFile(file, (error, data) => {
         if (error) {
             console.log('hmmmm: ', error);
