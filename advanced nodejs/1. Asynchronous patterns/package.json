@@ -1,0 +1,6 @@
+{
+  "start": "node index.js",
+  "dependencies": {
+    "log-update": "^7.0.1"
+  }
+}
