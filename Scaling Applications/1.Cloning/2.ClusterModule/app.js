@@ -9,12 +9,11 @@ const options = [
     "I wouldn't"
 ]
 
-// Giving Random advice from the above options
 const server = http.createServer((req, res) => {
     const randomIndex = Math.floor(Math.random() * options.length)
     const payload = JSON.stringify({
-        port, // Port can be 3000 or the port of user input "node app 3002"
-        processID: process.pid, // ID of the current process
+        port,
+        processID: process.pid,
         advise: options[randomIndex]
     })
 
